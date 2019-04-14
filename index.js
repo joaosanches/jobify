@@ -6,6 +6,8 @@ const dbConnection = sqlite.open('banco.sqlite', { Promise })
 
 const bodyParser = require('body-parser')
 
+const port = process.env.PORT | 3000
+
 app.set('view engine', 'ejs')
 
 // use, toda requicao passa aqui
@@ -195,7 +197,7 @@ const init = async() => {
 
 init()
 
-app.listen(3000, (err) => {
+app.listen(port, (err) => {
     if (err) {
         console.log('Erro no servidor')
     } else {

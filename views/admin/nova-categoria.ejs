@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+    <div>
+        <h2>Nova Categoria:</h2>
+        <a href="/admin/categorias">Categorias</a>
+    </div>
+
+    <div>
+        <form method="POST">
+            <label for="categoria">Categoria:</label>
+            <input type="text" id="categoria" name="categoria" placeholder="Nome da categoria" required>
+
+            <button type="submit">Salvar Categoria</button>
+        </form>
+    </div>
+
+<%- include('partials/footer') %>

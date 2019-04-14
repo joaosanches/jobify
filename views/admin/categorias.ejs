@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+    <h2>Admin Categorias:</h2>
+    <a href="/admin/categorias/nova">Nova Categoria</a>
+    <div>
+        <ul>
+            <% categorias.forEach( categoria => { %> 
+                <li>
+                    <%- categoria.categoria %> | 
+                    <a href="/admin/categorias/delete/<%- categoria.id %>">Excluir</a> 
+                    <a href="/admin/categorias/editar/<%- categoria.id %>">Editar</a> 
+                </li>
+            <% }) %>
+        </ul>
+    </div>
+    
+<%- include('partials/footer') %>

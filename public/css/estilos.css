@@ -1,0 +1,48 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color: #C4C4C4;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+h2, h3 {
+    font-size: 23px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+label, button {
+    display: block;
+    margin: 20px 0 4px 0;
+}
+
+input[type="text"], select {
+    padding: 5px;
+    width: 540px;
+}
+
+textarea {
+    padding: 5px;
+    width: 540px;
+    height: 200px;
+}

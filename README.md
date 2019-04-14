@@ -2,7 +2,7 @@
 
 Projeto Fullstack Lab - [Devpleno](https://devpleno.com)
 
-Node com Express e SQLite
+Node.js com Express e SQLite
 
 ## Deploy
 zeit.co

@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "build": [{
+        "src": "index.js",
+        "use": "@now/node-sever"
+    }],
+    "routes": [{
+        "src": "/.*",
+        "dest": "index.js"
+    }]
+}
